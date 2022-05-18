@@ -1,0 +1,25 @@
+
+#photoGallery {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+#inner {
+    width: 1800px;
+    height: 600px;
+    left: 0px;
+    background-color: blue;
+    position: absolute;
+    transition: left 0.5s;
+}
+.block_div {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.block_div:nth-child(1){background-color: red;}
+.block_div:nth-child(2){background-color: orange;}
+.block_div:nth-child(3){background-color: yellow;}
+.block_div:nth-child(4){background-color: green;}
+.block_div:nth-child(5){background-color: blue;}
