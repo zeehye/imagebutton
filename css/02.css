@@ -18,8 +18,3 @@
     height: 600px;
     float: left;
 }
-.block_div:nth-child(1){background-color: red;}
-.block_div:nth-child(2){background-color: orange;}
-.block_div:nth-child(3){background-color: yellow;}
-.block_div:nth-child(4){background-color: green;}
-.block_div:nth-child(5){background-color: blue;}
